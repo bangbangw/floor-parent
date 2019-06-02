@@ -15,7 +15,7 @@
         <module>floor-manager-pojo</module>
         <module>floor-manager-dao</module>
         <module>floor-manager-interface</module>
-        <module><![CDATA[ floor-manager-service]]></module>
+        <module>floor-manager-service</module>
         <module>floor-manager-web</module>
     </modules>
 
