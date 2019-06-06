@@ -11,5 +11,19 @@
      <packaging>war</packaging>
     <artifactId>floor-manager-web</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>com.wfd360.floor-parent</groupId>
+            <artifactId>floor-manager-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wfd360.floor-parent</groupId>
+            <artifactId>floor-manager-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
