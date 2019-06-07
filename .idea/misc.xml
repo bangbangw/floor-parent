@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/floor-manager/floor-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/floor-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/floor-manager/floor-manager-service" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/floor-manager/floor-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/floor-manager-web/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/floor-manager-web2/pom.xml" />
+        <option value="$PROJECT_DIR$/floor-manager/floor-manager-web/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

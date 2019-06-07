@@ -9,10 +9,13 @@
         <module name="floor-manager-web" />
         <module name="floor-manager-interface" />
         <module name="floor-manager-dao" />
-        <module name="floor-manager-service" />
         <module name="floor-manager-pojo" />
+        <module name="floor-manager-service" />
         <module name="floor-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="floor-manager-web2" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
